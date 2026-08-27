@@ -1,13 +1,12 @@
 class User:
-    def __init___(self, name, age, gender):
+    def __init___(self, name, age):
         self.name = name
         self.age = age
-        self.gender = gender
+
     def get_info(self, User):
         return self.name, "has account with Chase"
 
 class Bank(User):
-    def __init__(self, name, age, gender):
+    def __init__(self, name, age):
         super.__init__(s)
 
-#change code----
